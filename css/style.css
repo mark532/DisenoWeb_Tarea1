@@ -1,0 +1,175 @@
+/* Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.u-full-width {
+    width: 100%;
+}
+
+.u-max-full-width {
+    max-width: 100%;
+}
+
+
+/* Floats */
+
+.u-pull-right {
+    float: right;
+}
+
+.u-pull-left {
+    float: left;
+}
+
+.u-cf {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Positioning */
+
+.u-center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/**
+   * Note:
+   *
+   * Nest this class inside something with position: relative to have
+   * your element centered relative to its containing element.
+   *
+   * Use this class without nesting it to have your element centered relative
+   * to the viewport.
+  */
+
+.u-center-abs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+}
+
+
+/* Type */
+
+.u-text-center {
+    text-align: center !important;
+}
+
+.u-text-right {
+    text-align: right !important;
+}
+
+.u-text-left {
+    text-align: left !important;
+}
+
+.u-text-hide {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+
+/* Peek a boo */
+
+.u-hide {
+    display: none !important;
+}
+
+.u-show {
+    display: block !important;
+}
+
+.u-invisible {
+    visibility: hidden !important;
+}
+
+.u-visible {
+    visibility: visible !important;
+}
+
+
+/* Misc */
+
+.u-img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*Miyos*/
+
+.s1 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.s2 {
+    background-color: #F9F8F7;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.p1-white {
+    color: white
+}
+
+.s3 {
+    background-color: #6F2CA6;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.s4 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.s5 {
+    background-color: #F9F8F7;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.s6 {
+    background-color: #112B61;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+
+.b1 {
+    background-color: white;
+    color: #6F2CA6;
+}
+
+.b2 {
+    background-color: #6F2CA6;
+    color: white;
+}
+
+.p1 {
+    font-size: larger;
+}
+
+.t5 {
+    padding-top: 12rem;
+}
+
+.p5 {
+    font-size: larger;
+}
+
+.a5 {
+    padding-bottom: 5rem;
+    font-size: larger;
+}
