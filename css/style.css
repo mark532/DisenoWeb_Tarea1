@@ -35,17 +35,6 @@
     margin-right: auto;
 }
 
-
-/**
-   * Note:
-   *
-   * Nest this class inside something with position: relative to have
-   * your element centered relative to its containing element.
-   *
-   * Use this class without nesting it to have your element centered relative
-   * to the viewport.
-  */
-
 .u-center-abs {
     position: absolute;
     top: 50%;
